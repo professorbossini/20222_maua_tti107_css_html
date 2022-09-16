@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <!-- <label for="primeiroNome">Nome:</label>
+      <input id="primeiroNome" type="text">
+      <label>
+        Primeiro nome:
+        <input type="text">
+      </label>
+
+      <label for="sobrenome">Sobrenome:</label>
+       input#sobrenome[type=text]
+      <input type="text" id="sobrenome">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone">
+
+      <label for="cor">Cor:</label>
+      <input type="color" id="cor">
+
+      <label for="arquivo">Arquivo:</label>
+      <input type="file" id="arquivo">
+
+      <input type="submit" value="Enviar">
+
+      <textarea id="mensagem" cols="30" rows="15"></textarea>
+
+      <label for="estado">Estado:</label>
+      <select>
+        <option>São Paulo</option>
+        <option>Rio de Janeiro</option>
+        <option>Minas Gerais</option>
+        <option>Espírito Santo</option>
+      </select> -->
+
+      <fieldset>
+        <legend>Escolha um veículo</legend>
+        <!-- input[type=radio]*5 -->
+        <input id="x1" type="radio" name="veiculo"><label for="x1">X1</label>
+        <input type="radio" id="xc60" name="veiculo"><label for="xc60">XC60</label>
+        <input id="q5" type="radio" name="veiculo"><label for="q5">Q5</label>
+        <input id="discovery" type="radio" name="veiculo"><label for="discovery">Discovery</label>
+        <input id="taycan"type="radio" name="veiculo"><label for="taycan">Taycan</label>
+      </fieldset>
+
+      <!-- fieldset>(legend+(input[type=checkbox])*3) -->
+      <fieldset>
+        <legend>De quais cores você gosta</legend>
+        <input type="checkbox" id="vermelho"><label for="vermelho">Vermelho</label>
+        <input type="checkbox" id="amarelo"><label for="amarelo">Amarelo</label>
+        <input type="checkbox" id="preto"><label for="preto">Preto</label>
+      </fieldset>
+
+
+    </form>
+  </body>
+</html>

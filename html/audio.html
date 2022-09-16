@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Músicas</title>
+</head>
+<body>
+  <h1>Minhas músicas</h1>
+  <p>Ouça as músicas que eu gosto.</p>
+
+  <audio
+    controls
+    autoplay
+    loop
+    muted
+  >
+    <!-- audio/mpeg é um MIME TYPE -->
+    <source
+      src="audios/audio1.mp3"
+      type="audio/mpeg"
+    >
+  </audio>
+
+  <audio controls src="audios/audio2.mp3"></audio>
+
+  <audio controls>
+    <source src="audios/audio1.mp3">
+    <source src="audios/audio1.ogg">
+    <a href="audios/audio1.mp3">Áudio 1</a>
+  </audio>
+  
+</body>
+</html>
